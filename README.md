@@ -83,7 +83,7 @@ git restore --source=HEAD~2 file.js
 
 ## use this command to launch a visual tool configured seeing what is going in the next ommit
 ```bash
-git diff --staged
+git difftool --staged
 ```
 
 ## will open a visual tool, compare what we have in the working directory with what we have in the staging area
