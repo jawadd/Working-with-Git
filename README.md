@@ -81,8 +81,8 @@ git clean -fd                   # Removes all untracked files
 git restore --source=HEAD~2 file.js
 ```
 
-## Using a Visual Tool for Staged Changes
+## use this command to launch a visual tool configured seeing what is going in the next ommit
 ```bash
-git difftool --staged
+git diff --staged
 ```
-```
+
