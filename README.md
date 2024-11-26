@@ -86,3 +86,13 @@ git restore --source=HEAD~2 file.js
 git diff --staged
 ```
 
+## will open a visual tool, compare what we have in the working directory with what we have in the staging area
+```bash
+git difftool
+```
+
+## will open a visual tool, compare comitted vs staged area changes
+```bash
+git difftool --staged
+```
+
